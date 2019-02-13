@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y nodejs --no-install-recommends && rm -r
 RUN apt-get update && apt-get install -qq -y \
 build-essential \
 libpq-dev \
-postgresql-client-9.3.18 \
+postgresql-client \
 --fix-missing \
 --no-install-recommends apt-utils && rm -rf /var/lib/apt/lists/*
 
